@@ -7,4 +7,6 @@ json_text= json.loads(r.text)
 
 pprint(json_text) 
 
+print(API2)
+
 """DO NOT USE THE SAME TOKEN"""
