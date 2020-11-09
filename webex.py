@@ -6,3 +6,5 @@ r = requests.get('https://webexapis.com/v1/people/me',headers={'Authorization': 
 json_text= json.loads(r.text)
 
 pprint(json_text) 
+
+"""DO NOT USE THE SAME TOKEN"""
